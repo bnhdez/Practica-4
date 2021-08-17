@@ -18,6 +18,7 @@ namespace Ejercicio_2
 
                 if (i == 1)
                 {
+                    //comparamos los numeros entre si
                     ma = num;
                     me = num;
                 }
