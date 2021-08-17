@@ -8,16 +8,16 @@ namespace Ejercicio_3
         {
             int par = 0, impar = 0;
 
-            for (int i=1; i<=25; i++)
+            for (int i=1; i<=300; i++)
             {
                 if (i % 2 == 0)
                 {
-                    Console.Write("par"+ i);
+                    Console.WriteLine(i + " par");
                     par++;
                 }
                 else if (i % 2 != 0)
                 {
-                    Console.Write("impar"+ i);
+                    Console.WriteLine(i + " impar");
                     impar++;
                 }
             }
